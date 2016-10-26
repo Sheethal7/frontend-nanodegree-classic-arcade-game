@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+}
+
+header {
+  height: 100px;
+  background-color: #8001FF;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+h1 {
+  color: #FFF;
+  margin: 0;
+  padding-top: 15px;
+}
+
+#startScreen {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  height: 606px;
+  width: 505px;
+  background-color: #4A4A4A;
+}
+
+#startButton {
+  font-size: 2em;
+  padding: 40px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  border-radius: 10px;
+  background-color: #F5A623;
+}
+
+#scoreInfo {
+  box-sizing: border-box;
+  float: left;
+  width: 505px;
+  margin-top: 50px;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main {
+  width: 50%;
+  float: left;
+}
+
+#main img {
+  display: none;
+  float: right;
+}
+
+#main canvas {
+  margin: 0 auto;
+  margin-top: -40px;
+}
+
+#score, #timer {
+  margin: 0 25px;
+}
+
+#players {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#players h2 {
+  margin-bottom: 50px;
+}
+
+aside.left, aside.right {
+  padding-top: 75px;
+  width: 25%;
+}
+
+.left {
+  float: left;
+  background-color: #F3F3F3;
+}
+
+.right {
+  float: right;
+  background-color: #F3F3F3;
+}
+
+.crop {
+  float: left;
+  height: 30%;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.small {
+  height: 30%;
+  overflow: hidden;
+}
+
+.small img {
+  height: 40%;
+  margin-top: -20px;
+}
+
+.crop img {
+  height: 100%;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+table {
+  margin: 25px 0 0 15px;
+  font-size: 0.9em;
+}
+
+td:nth-of-type(2) {
+  padding-left: 15px;
+  text-align: left;
+}
