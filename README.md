@@ -15,18 +15,18 @@ The repository contains the required files and folders for the _Classic Arcade G
 
 ### Files
 The repository consists of the following files:
-**index.html:**An html file to structure the game environment and to load javascript and css files
-**style.css:**A styling document inside the **css** folder
-**js/app.js:** The main JavaScript file with JavaScript classes for Enemy, Player etc.
-**js/engine.js:** The game loop engine provided.
-**js/resources.js:** Helper object for loading and caching images
-**jquery.js/:** Javascript library
+* **index.html:**An html file to structure the game environment and to load javascript and css files
+* **style.css:**A styling document inside the **css** folder
+* **js/app.js:** The main JavaScript file with JavaScript classes for Enemy, Player etc.
+* **js/engine.js:** The game loop engine provided.
+* **js/resources.js:** Helper object for loading and caching images
+* **jquery.js/:** Javascript library
 
 ### Folders
 The repository consists of the following folders:
-**css:** Contains styling files
-**js** Contains all js files
-**images** Contains required image files
+* **css:** Contains styling files
+* **js** Contains all js files
+* **images** Contains required image files
 
 ## Instructions
 * choose any one of the characters
